@@ -1,42 +1,30 @@
-public class ClassWork {
+package practiceclasswork;
+
+public class classwork {
+
+    // creating ArrayDemo// declare and initialize an array
     public static void main(String[] args) {
-
-        int[] studentID = new int[4];
+        int[] departmentID = new int[7];
         for (int x = 0; x <= 3; x++) {
-            int id = studentID[x];
+            int id = departmentID[x];
+            departmentID[0] = 502;
+            departmentID[1] = 503;
+            departmentID[2] = 504;
+            departmentID[3] = 505;
+            departmentID[4] = 506;
+            departmentID[5] = 507;
+            departmentID[6] = 508;
+            //departmentID[7] = 509;
 
-            studentID[0] = 201;
-            studentID[1] = 202;
-            studentID[2] = 203;
-            studentID[3] = 204;
-            //studentID[4] =205;
-
-
-            System.out.println("Print : " + studentID[0]);
-            System.out.println("Print : " + studentID[1]);
-            System.out.println("Print : " + studentID[2]);
-            System.out.println("Print : " + studentID[3]);
-            //System.out.println("Print : " + studentID[4]);
-
-            int a = 20;
-            int b = 30;
-            if (a < b) {
-                System.out.println("Good morning");
-            }
-
-            if (a < 15) {
-                System.out.println("good");
-            } else {
-                System.out.println("bad");
-            }
-//While loop
-            int i = 0;
-            while (i < 5) {
-                System.out.println(i);
-                i++;
-            }
+            System.out.println("Print the value of index 0: " + departmentID[0]);
+            System.out.println("Print the value of index 0: " + departmentID[1]);
+            System.out.println("Print the value of index 0: " + departmentID[2]);
+            System.out.println("Print the value of index 0: " + departmentID[3]);
+            System.out.println("Print the value of index 0: " + departmentID[4]);
+            System.out.println("Print the value of index 0: " + departmentID[5]);
+            System.out.println("Print the value of index 0: " + departmentID[6]);
+            System.out.println(id);
         }
+
     }
 }
-
-
